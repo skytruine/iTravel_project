@@ -1,0 +1,39 @@
+d:\my documents\visual studio 2012\Projects\iTravel\iTravel\bin\Debug\iTravel.exe.config
+d:\my documents\visual studio 2012\Projects\iTravel\iTravel\bin\Debug\iTravel.exe
+d:\my documents\visual studio 2012\Projects\iTravel\iTravel\bin\Debug\iTravel.pdb
+d:\my documents\visual studio 2012\Projects\iTravel\iTravel\obj\Debug\iTravel.csprojResolveAssemblyReference.cache
+d:\my documents\visual studio 2012\Projects\iTravel\iTravel\obj\Debug\iTravel.Form1.resources
+d:\my documents\visual studio 2012\Projects\iTravel\iTravel\obj\Debug\iTravel.Mainform.resources
+d:\my documents\visual studio 2012\Projects\iTravel\iTravel\obj\Debug\iTravel.i.resources
+d:\my documents\visual studio 2012\Projects\iTravel\iTravel\obj\Debug\iTravel.Properties.Resources.resources
+d:\my documents\visual studio 2012\Projects\iTravel\iTravel\obj\Debug\iTravel.login.resources
+d:\my documents\visual studio 2012\Projects\iTravel\iTravel\obj\Debug\iTravel.signin.resources
+d:\my documents\visual studio 2012\Projects\iTravel\iTravel\obj\Debug\iTravel.csproj.GenerateResource.Cache
+d:\my documents\visual studio 2012\Projects\iTravel\iTravel\obj\Debug\iTravel.exe
+d:\my documents\visual studio 2012\Projects\iTravel\iTravel\obj\Debug\iTravel.pdb
+E:\study\GIS软件设计开发\iTravel\iTravel\obj\Debug\iTravel.csprojResolveAssemblyReference.cache
+E:\study\GIS软件设计开发\iTravel\iTravel\obj\Debug\iTravel.Form1.resources
+E:\study\GIS软件设计开发\iTravel\iTravel\obj\Debug\iTravel.Mainform.resources
+E:\study\GIS软件设计开发\iTravel\iTravel\obj\Debug\iTravel.i.resources
+E:\study\GIS软件设计开发\iTravel\iTravel\obj\Debug\iTravel.Properties.Resources.resources
+E:\study\GIS软件设计开发\iTravel\iTravel\obj\Debug\iTravel.login.resources
+E:\study\GIS软件设计开发\iTravel\iTravel\obj\Debug\iTravel.signin.resources
+E:\study\GIS软件设计开发\iTravel\iTravel\obj\Debug\iTravel.csproj.GenerateResource.Cache
+E:\study\GIS软件设计开发\iTravel\iTravel\bin\Debug\0.exe.config
+E:\study\GIS软件设计开发\iTravel\iTravel\bin\Debug\0.exe
+E:\study\GIS软件设计开发\iTravel\iTravel\bin\Debug\0.pdb
+E:\study\GIS软件设计开发\iTravel\iTravel\obj\Debug\0.exe
+E:\study\GIS软件设计开发\iTravel\iTravel\obj\Debug\0.pdb
+E:\qq下载\iTravel\iTravel\iTravel\bin\Debug\0.exe.config
+E:\qq下载\iTravel\iTravel\iTravel\obj\Debug\0.exe
+E:\qq下载\iTravel\iTravel\iTravel\obj\Debug\0.pdb
+E:\qq下载\iTravel\iTravel\iTravel\bin\Debug\0.exe
+E:\qq下载\iTravel\iTravel\iTravel\bin\Debug\0.pdb
+E:\qq下载\iTravel\iTravel\iTravel\obj\Debug\iTravel.csprojResolveAssemblyReference.cache
+E:\qq下载\iTravel\iTravel\iTravel\obj\Debug\iTravel.Form1.resources
+E:\qq下载\iTravel\iTravel\iTravel\obj\Debug\iTravel.Mainform.resources
+E:\qq下载\iTravel\iTravel\iTravel\obj\Debug\iTravel.i.resources
+E:\qq下载\iTravel\iTravel\iTravel\obj\Debug\iTravel.Properties.Resources.resources
+E:\qq下载\iTravel\iTravel\iTravel\obj\Debug\iTravel.login.resources
+E:\qq下载\iTravel\iTravel\iTravel\obj\Debug\iTravel.signin.resources
+E:\qq下载\iTravel\iTravel\iTravel\obj\Debug\iTravel.csproj.GenerateResource.Cache
