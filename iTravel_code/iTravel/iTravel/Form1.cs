@@ -11,6 +11,8 @@ using System.Windows.Forms;
 using ESRI.ArcGIS.Controls;
 using ESRI.ArcGIS.SystemUI;
 using System.Web;
+using ESRI.ArcGIS.Carto;
+using ESRI.ArcGIS.Geodatabase;
 
 namespace iTravel
 {
@@ -115,5 +117,61 @@ namespace iTravel
         {
 
         }
+
+        private void buttonItem19_Click(object sender, EventArgs e)
+        {
+            searchbyname search = new searchbyname();
+            search.Show();
+            //search.MdiParent = this;
+
+            search.Location = (Point)new Size(axMapControl2.Location.X, axMapControl2.Location.Y);
+            search.Height = axMapControl2.Height;
+            search.TopMost = true;
+        }
+
+        private void buttonItem23_Click(object sender, EventArgs e)
+        {
+            ICommand pCommand = null;
+            pCommand = new ControlsSelectToolClass(); //选择要素
+            pCommand.OnCreate(axMapControl2.Object);     //使得PageLayoutContro中对象可以编辑
+            axMapControl2.CurrentTool = (ITool)pCommand;
+            MapSelectFeature();
+           
+        }
+        private void MapSelectFeature()
+        {
+            ICommand pCommand = new ControlsSelectFeaturesToolClass();
+            ITool pTool = pCommand as ITool;
+            pCommand.OnCreate(axMapControl2.Object);
+            axMapControl2.CurrentTool = pTool;
+            //getSelectedFeature();
+        }//选择地图要素
+        public void getSelectedFeature()  
+    {  
+            try  
+            {
+                IMap map = axMapControl2.Map;
+                ISelection selection = map.FeatureSelection;
+                IEnumFeatureSetup iEnumFeatureSetup = (IEnumFeatureSetup)selection;
+                iEnumFeatureSetup.AllFields = true;
+                IEnumFeature enumFeature = (IEnumFeature)iEnumFeatureSetup;
+                enumFeature.Reset();
+                IFeature feature = enumFeature.Next();
+                while (feature != null)
+                {
+                    string hehe = feature.get_Value(5).ToString();
+                    MessageBox.Show(hehe);
+                    feature = enumFeature.Next();
+                }
+            }
+            catch (Exception e)
+            {
+            }  
+}
+
+        private void axMapControl2_OnMouseDown(object sender, IMapControlEvents2_OnMouseDownEvent e)
+        {
+            getSelectedFeature();
+        }  
     }
 }
