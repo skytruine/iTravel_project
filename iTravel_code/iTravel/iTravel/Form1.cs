@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,6 +14,8 @@ using ESRI.ArcGIS.SystemUI;
 using System.Web;
 using ESRI.ArcGIS.Carto;
 using ESRI.ArcGIS.Geodatabase;
+using System.Device.Location; 
+
 
 namespace iTravel
 {
@@ -49,20 +52,18 @@ namespace iTravel
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            /*MyPic pic = new MyPic();
-            pic.Name = "p1";
-            //pic.Image = WindowsFormsApplication1.Properties.Resources.cnt_bg_01;
-            pic.Width = 500;
-            pic.Height = 300;
-            this.Controls.Add(pic);
             
-            GraphicsPath gp = new GraphicsPath();
-            gp.AddEllipse(pictureBox2.ClientRectangle);
-            Region region = new Region(gp);
-            pictureBox2.Region = region;
-            gp.Dispose();
-            region.Dispose();*/
-
+            GeoCoordinateWatcher watcher = new GeoCoordinateWatcher();
+            watcher.TryStart(false, TimeSpan.FromMilliseconds(50000));////超过5S则返回False;  
+            GeoCoordinate coord = watcher.Position.Location;
+            if (coord.IsUnknown != true)
+            {
+                labelX2.Text = "东经:" + coord.Longitude.ToString() + "\t北纬" + coord.Latitude.ToString() + "\n";
+            }
+            else
+            {
+                labelX2.Text = "地理未知";
+            }  
         }
 
         private void buttonItem16_Click(object sender, EventArgs e)
@@ -120,7 +121,7 @@ namespace iTravel
 
         private void buttonItem19_Click(object sender, EventArgs e)
         {
-            searchbyname search = new searchbyname();
+            searchbyname search = new searchbyname(axMapControl2);
             search.Show();
             //search.MdiParent = this;
 
@@ -171,7 +172,20 @@ namespace iTravel
 
         private void axMapControl2_OnMouseDown(object sender, IMapControlEvents2_OnMouseDownEvent e)
         {
-            getSelectedFeature();
-        }  
+            //getSelectedFeature();
+        }
+
+        private void labelX2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonItem26_Click(object sender, EventArgs e)
+        {
+            personalized person = new personalized();
+            person.Show();
+        }
+
+       
     }
 }

@@ -59,12 +59,6 @@
             this.buttonItem14 = new DevComponents.DotNetBar.ButtonItem();
             this.buttonItem15 = new DevComponents.DotNetBar.ButtonItem();
             this.buttonItem17 = new DevComponents.DotNetBar.ButtonItem();
-            this.ribbonPanel2 = new DevComponents.DotNetBar.RibbonPanel();
-            this.ribbonBar2 = new DevComponents.DotNetBar.RibbonBar();
-            this.buttonItem18 = new DevComponents.DotNetBar.ButtonItem();
-            this.buttonItem19 = new DevComponents.DotNetBar.ButtonItem();
-            this.buttonItem23 = new DevComponents.DotNetBar.ButtonItem();
-            this.buttonItem24 = new DevComponents.DotNetBar.ButtonItem();
             this.ribbonPanel3 = new DevComponents.DotNetBar.RibbonPanel();
             this.ribbonBar3 = new DevComponents.DotNetBar.RibbonBar();
             this.buttonItem20 = new DevComponents.DotNetBar.ButtonItem();
@@ -72,6 +66,12 @@
             this.buttonItem22 = new DevComponents.DotNetBar.ButtonItem();
             this.buttonItem25 = new DevComponents.DotNetBar.ButtonItem();
             this.buttonItem26 = new DevComponents.DotNetBar.ButtonItem();
+            this.ribbonPanel2 = new DevComponents.DotNetBar.RibbonPanel();
+            this.ribbonBar2 = new DevComponents.DotNetBar.RibbonBar();
+            this.buttonItem18 = new DevComponents.DotNetBar.ButtonItem();
+            this.buttonItem19 = new DevComponents.DotNetBar.ButtonItem();
+            this.buttonItem23 = new DevComponents.DotNetBar.ButtonItem();
+            this.buttonItem24 = new DevComponents.DotNetBar.ButtonItem();
             this.ribbonTabItem1 = new DevComponents.DotNetBar.RibbonTabItem();
             this.ribbonTabItem2 = new DevComponents.DotNetBar.RibbonTabItem();
             this.ribbonTabItem3 = new DevComponents.DotNetBar.RibbonTabItem();
@@ -88,10 +88,11 @@
             this.axMapControl1 = new ESRI.ArcGIS.Controls.AxMapControl();
             this.labelX1 = new DevComponents.DotNetBar.LabelX();
             this.axMapControl2 = new ESRI.ArcGIS.Controls.AxMapControl();
+            this.labelX2 = new DevComponents.DotNetBar.LabelX();
             this.ribbonControl1.SuspendLayout();
             this.ribbonPanel1.SuspendLayout();
-            this.ribbonPanel2.SuspendLayout();
             this.ribbonPanel3.SuspendLayout();
+            this.ribbonPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.axLicenseControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.axMapControl1)).BeginInit();
@@ -100,6 +101,7 @@
             // 
             // styleManager1
             // 
+            this.styleManager1.ManagerColorTint = System.Drawing.Color.White;
             this.styleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.Office2007Silver;
             this.styleManager1.MetroColorParameters = new DevComponents.DotNetBar.Metro.ColorTables.MetroColorGeneratorParameters(System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(150)))), ((int)(((byte)(103))))), System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(48)))), ((int)(((byte)(37))))));
             // 
@@ -289,8 +291,8 @@
             this.ribbonControl1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.ribbonControl1.CaptionVisible = true;
             this.ribbonControl1.Controls.Add(this.ribbonPanel1);
-            this.ribbonControl1.Controls.Add(this.ribbonPanel2);
             this.ribbonControl1.Controls.Add(this.ribbonPanel3);
+            this.ribbonControl1.Controls.Add(this.ribbonPanel2);
             this.ribbonControl1.Dock = System.Windows.Forms.DockStyle.Top;
             this.ribbonControl1.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.ribbonControl1.ForeColor = System.Drawing.SystemColors.AppWorkspace;
@@ -432,96 +434,6 @@
             this.buttonItem17.Text = "全图显示";
             this.buttonItem17.Click += new System.EventHandler(this.buttonItem17_Click);
             // 
-            // ribbonPanel2
-            // 
-            this.ribbonPanel2.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.ribbonPanel2.Controls.Add(this.ribbonBar2);
-            this.ribbonPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ribbonPanel2.Location = new System.Drawing.Point(0, 92);
-            this.ribbonPanel2.Name = "ribbonPanel2";
-            this.ribbonPanel2.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);
-            this.ribbonPanel2.Size = new System.Drawing.Size(803, 113);
-            // 
-            // 
-            // 
-            this.ribbonPanel2.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonPanel2.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonPanel2.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.ribbonPanel2.TabIndex = 2;
-            this.ribbonPanel2.Visible = false;
-            // 
-            // ribbonBar2
-            // 
-            this.ribbonBar2.AutoOverflowEnabled = true;
-            // 
-            // 
-            // 
-            this.ribbonBar2.BackgroundMouseOverStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonBar2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.ribbonBar2.ContainerControlProcessDialogKey = true;
-            this.ribbonBar2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.ribbonBar2.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
-            this.buttonItem18,
-            this.buttonItem19,
-            this.buttonItem23,
-            this.buttonItem24});
-            this.ribbonBar2.Location = new System.Drawing.Point(3, 0);
-            this.ribbonBar2.Name = "ribbonBar2";
-            this.ribbonBar2.Size = new System.Drawing.Size(500, 110);
-            this.ribbonBar2.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.ribbonBar2.TabIndex = 0;
-            // 
-            // 
-            // 
-            this.ribbonBar2.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonBar2.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // buttonItem18
-            // 
-            this.buttonItem18.Name = "buttonItem18";
-            this.buttonItem18.SubItemsExpandWidth = 14;
-            // 
-            // buttonItem19
-            // 
-            this.buttonItem19.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
-            this.buttonItem19.Image = ((System.Drawing.Image)(resources.GetObject("buttonItem19.Image")));
-            this.buttonItem19.ImagePaddingHorizontal = 12;
-            this.buttonItem19.Name = "buttonItem19";
-            this.buttonItem19.SubItemsExpandWidth = 14;
-            this.buttonItem19.Text = "景点介绍";
-            this.buttonItem19.Click += new System.EventHandler(this.buttonItem19_Click);
-            // 
-            // buttonItem23
-            // 
-            this.buttonItem23.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
-            this.buttonItem23.Image = ((System.Drawing.Image)(resources.GetObject("buttonItem23.Image")));
-            this.buttonItem23.ImagePaddingHorizontal = 25;
-            this.buttonItem23.Name = "buttonItem23";
-            this.buttonItem23.SubItemsExpandWidth = 14;
-            this.buttonItem23.Text = "点击查询";
-            this.buttonItem23.Click += new System.EventHandler(this.buttonItem23_Click);
-            // 
-            // buttonItem24
-            // 
-            this.buttonItem24.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
-            this.buttonItem24.Image = ((System.Drawing.Image)(resources.GetObject("buttonItem24.Image")));
-            this.buttonItem24.ImagePaddingHorizontal = 20;
-            this.buttonItem24.Name = "buttonItem24";
-            this.buttonItem24.SubItemsExpandWidth = 14;
-            this.buttonItem24.Text = "景点周围推荐";
-            // 
             // ribbonPanel3
             // 
             this.ribbonPanel3.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -616,6 +528,97 @@
             this.buttonItem26.Name = "buttonItem26";
             this.buttonItem26.SubItemsExpandWidth = 14;
             this.buttonItem26.Text = "个性化景点";
+            this.buttonItem26.Click += new System.EventHandler(this.buttonItem26_Click);
+            // 
+            // ribbonPanel2
+            // 
+            this.ribbonPanel2.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ribbonPanel2.Controls.Add(this.ribbonBar2);
+            this.ribbonPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ribbonPanel2.Location = new System.Drawing.Point(0, 92);
+            this.ribbonPanel2.Name = "ribbonPanel2";
+            this.ribbonPanel2.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);
+            this.ribbonPanel2.Size = new System.Drawing.Size(803, 113);
+            // 
+            // 
+            // 
+            this.ribbonPanel2.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonPanel2.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonPanel2.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonPanel2.TabIndex = 2;
+            this.ribbonPanel2.Visible = false;
+            // 
+            // ribbonBar2
+            // 
+            this.ribbonBar2.AutoOverflowEnabled = true;
+            // 
+            // 
+            // 
+            this.ribbonBar2.BackgroundMouseOverStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonBar2.ContainerControlProcessDialogKey = true;
+            this.ribbonBar2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.ribbonBar2.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.buttonItem18,
+            this.buttonItem19,
+            this.buttonItem23,
+            this.buttonItem24});
+            this.ribbonBar2.Location = new System.Drawing.Point(3, 0);
+            this.ribbonBar2.Name = "ribbonBar2";
+            this.ribbonBar2.Size = new System.Drawing.Size(500, 110);
+            this.ribbonBar2.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ribbonBar2.TabIndex = 0;
+            // 
+            // 
+            // 
+            this.ribbonBar2.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar2.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // buttonItem18
+            // 
+            this.buttonItem18.Name = "buttonItem18";
+            this.buttonItem18.SubItemsExpandWidth = 14;
+            // 
+            // buttonItem19
+            // 
+            this.buttonItem19.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
+            this.buttonItem19.Image = ((System.Drawing.Image)(resources.GetObject("buttonItem19.Image")));
+            this.buttonItem19.ImagePaddingHorizontal = 12;
+            this.buttonItem19.Name = "buttonItem19";
+            this.buttonItem19.SubItemsExpandWidth = 14;
+            this.buttonItem19.Text = "景点介绍";
+            this.buttonItem19.Click += new System.EventHandler(this.buttonItem19_Click);
+            // 
+            // buttonItem23
+            // 
+            this.buttonItem23.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
+            this.buttonItem23.Image = ((System.Drawing.Image)(resources.GetObject("buttonItem23.Image")));
+            this.buttonItem23.ImagePaddingHorizontal = 25;
+            this.buttonItem23.Name = "buttonItem23";
+            this.buttonItem23.SubItemsExpandWidth = 14;
+            this.buttonItem23.Text = "点击查询";
+            this.buttonItem23.Click += new System.EventHandler(this.buttonItem23_Click);
+            // 
+            // buttonItem24
+            // 
+            this.buttonItem24.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
+            this.buttonItem24.Image = ((System.Drawing.Image)(resources.GetObject("buttonItem24.Image")));
+            this.buttonItem24.ImagePaddingHorizontal = 20;
+            this.buttonItem24.Name = "buttonItem24";
+            this.buttonItem24.SubItemsExpandWidth = 14;
+            this.buttonItem24.Text = "景点周围推荐";
             // 
             // ribbonTabItem1
             // 
@@ -657,7 +660,7 @@
             this.buttonX1.Location = new System.Drawing.Point(0, 3);
             this.buttonX1.Name = "buttonX1";
             this.buttonX1.Shape = new DevComponents.DotNetBar.EllipticalShapeDescriptor();
-            this.buttonX1.Size = new System.Drawing.Size(57, 55);
+            this.buttonX1.Size = new System.Drawing.Size(57, 53);
             this.buttonX1.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
             this.登录,
             this.个人信息,
@@ -695,6 +698,7 @@
             // 
             // styleManager2
             // 
+            this.styleManager2.ManagerColorTint = System.Drawing.Color.White;
             this.styleManager2.ManagerStyle = DevComponents.DotNetBar.eStyle.Office2007Silver;
             this.styleManager2.MetroColorParameters = new DevComponents.DotNetBar.Metro.ColorTables.MetroColorGeneratorParameters(System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(150)))), ((int)(((byte)(103))))), System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(48)))), ((int)(((byte)(37))))));
             // 
@@ -764,12 +768,26 @@
             this.axMapControl2.TabIndex = 6;
             this.axMapControl2.OnMouseDown += new ESRI.ArcGIS.Controls.IMapControlEvents2_Ax_OnMouseDownEventHandler(this.axMapControl2_OnMouseDown);
             // 
+            // labelX2
+            // 
+            // 
+            // 
+            // 
+            this.labelX2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX2.Location = new System.Drawing.Point(528, 63);
+            this.labelX2.Name = "labelX2";
+            this.labelX2.Size = new System.Drawing.Size(75, 23);
+            this.labelX2.TabIndex = 1;
+            this.labelX2.Text = "labelX2";
+            this.labelX2.Click += new System.EventHandler(this.labelX2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(803, 494);
             this.ControlBox = false;
+            this.Controls.Add(this.labelX2);
             this.Controls.Add(this.axMapControl2);
             this.Controls.Add(this.labelX1);
             this.Controls.Add(this.buttonX1);
@@ -782,8 +800,8 @@
             this.ribbonControl1.ResumeLayout(false);
             this.ribbonControl1.PerformLayout();
             this.ribbonPanel1.ResumeLayout(false);
-            this.ribbonPanel2.ResumeLayout(false);
             this.ribbonPanel3.ResumeLayout(false);
+            this.ribbonPanel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bar1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.axLicenseControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.axMapControl1)).EndInit();
@@ -852,6 +870,7 @@
         private DevComponents.DotNetBar.ButtonItem 退出;
         private DevComponents.DotNetBar.LabelX labelX1;
         private ESRI.ArcGIS.Controls.AxMapControl axMapControl2;
+        private DevComponents.DotNetBar.LabelX labelX2;
 
     }
 }

@@ -52,3 +52,34 @@ D:\My Documents\GitHub\iTravel_project\iTravel_code\iTravel\iTravel\obj\Debug\iT
 D:\My Documents\GitHub\iTravel_project\iTravel_code\iTravel\iTravel\obj\Debug\iTravel.signin.resources
 D:\My Documents\GitHub\iTravel_project\iTravel_code\iTravel\iTravel\obj\Debug\iTravel.csproj.GenerateResource.Cache
 D:\My Documents\GitHub\iTravel_project\iTravel_code\iTravel\iTravel\obj\Debug\iTravel.searchbyname.resources
+C:\Users\Administrator\Documents\GitHub\iTravel_project\iTravel_code\iTravel\iTravel\bin\Debug\0.exe.config
+C:\Users\Administrator\Documents\GitHub\iTravel_project\iTravel_code\iTravel\iTravel\obj\Debug\0.exe
+C:\Users\Administrator\Documents\GitHub\iTravel_project\iTravel_code\iTravel\iTravel\obj\Debug\0.pdb
+C:\Users\Administrator\Documents\GitHub\iTravel_project\iTravel_code\iTravel\iTravel\bin\Debug\0.exe
+C:\Users\Administrator\Documents\GitHub\iTravel_project\iTravel_code\iTravel\iTravel\bin\Debug\0.pdb
+C:\Users\Administrator\Documents\GitHub\iTravel_project\iTravel_code\iTravel\iTravel\obj\Debug\iTravel.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\iTravel_project\iTravel_code\iTravel\iTravel\obj\Debug\iTravel.Form1.resources
+C:\Users\Administrator\Documents\GitHub\iTravel_project\iTravel_code\iTravel\iTravel\obj\Debug\iTravel.Mainform.resources
+C:\Users\Administrator\Documents\GitHub\iTravel_project\iTravel_code\iTravel\iTravel\obj\Debug\iTravel.i.resources
+C:\Users\Administrator\Documents\GitHub\iTravel_project\iTravel_code\iTravel\iTravel\obj\Debug\iTravel.Properties.Resources.resources
+C:\Users\Administrator\Documents\GitHub\iTravel_project\iTravel_code\iTravel\iTravel\obj\Debug\iTravel.login.resources
+C:\Users\Administrator\Documents\GitHub\iTravel_project\iTravel_code\iTravel\iTravel\obj\Debug\iTravel.searchbyname.resources
+C:\Users\Administrator\Documents\GitHub\iTravel_project\iTravel_code\iTravel\iTravel\obj\Debug\iTravel.sightintroduce.resources
+C:\Users\Administrator\Documents\GitHub\iTravel_project\iTravel_code\iTravel\iTravel\obj\Debug\iTravel.signin.resources
+C:\Users\Administrator\Documents\GitHub\iTravel_project\iTravel_code\iTravel\iTravel\obj\Debug\iTravel.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\iTravel\iTravel\bin\Debug\0.exe.config
+C:\Users\Administrator\Desktop\iTravel\iTravel\obj\Debug\0.exe
+C:\Users\Administrator\Desktop\iTravel\iTravel\obj\Debug\0.pdb
+C:\Users\Administrator\Desktop\iTravel\iTravel\bin\Debug\0.exe
+C:\Users\Administrator\Desktop\iTravel\iTravel\bin\Debug\0.pdb
+C:\Users\Administrator\Desktop\iTravel\iTravel\obj\Debug\iTravel.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\iTravel\iTravel\obj\Debug\iTravel.Form1.resources
+C:\Users\Administrator\Desktop\iTravel\iTravel\obj\Debug\iTravel.Mainform.resources
+C:\Users\Administrator\Desktop\iTravel\iTravel\obj\Debug\iTravel.i.resources
+C:\Users\Administrator\Desktop\iTravel\iTravel\obj\Debug\iTravel.Properties.Resources.resources
+C:\Users\Administrator\Desktop\iTravel\iTravel\obj\Debug\iTravel.login.resources
+C:\Users\Administrator\Desktop\iTravel\iTravel\obj\Debug\iTravel.searchbyname.resources
+C:\Users\Administrator\Desktop\iTravel\iTravel\obj\Debug\iTravel.sightintroduce.resources
+C:\Users\Administrator\Desktop\iTravel\iTravel\obj\Debug\iTravel.signin.resources
+C:\Users\Administrator\Desktop\iTravel\iTravel\obj\Debug\iTravel.csproj.GenerateResource.Cache
+D:\My Documents\GitHub\iTravel_project\iTravel_code\iTravel\iTravel\obj\Debug\iTravel.personalized.resources
