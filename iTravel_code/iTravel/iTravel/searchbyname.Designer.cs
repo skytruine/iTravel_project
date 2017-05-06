@@ -81,6 +81,7 @@
             this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.textBox1.Size = new System.Drawing.Size(313, 128);
             this.textBox1.TabIndex = 4;
+            
             // 
             // searchbyname
             // 

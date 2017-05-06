@@ -82,3 +82,4 @@ C:\Users\Administrator\Desktop\iTravel\iTravel\obj\Debug\iTravel.searchbyname.re
 C:\Users\Administrator\Desktop\iTravel\iTravel\obj\Debug\iTravel.sightintroduce.resources
 C:\Users\Administrator\Desktop\iTravel\iTravel\obj\Debug\iTravel.signin.resources
 C:\Users\Administrator\Desktop\iTravel\iTravel\obj\Debug\iTravel.csproj.GenerateResource.Cache
+D:\My Documents\GitHub\iTravel_project\iTravel_code\iTravel\iTravel\obj\Debug\iTravel.personalized.resources

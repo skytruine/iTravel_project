@@ -157,7 +157,7 @@ namespace iTravel
             iMarkerSymbol.Color = iRgbColor;
             iSymbol = (ISymbol)iMarkerSymbol;
             iSymbol.ROP2 = esriRasterOpCode.esriROPNotXOrPen;
-            mapControl.FlashShape(iGeometry, 10, 200, iSymbol);
+            mapControl.FlashShape(iGeometry, 3, 200, iSymbol);
         }
 
         private void comboBox1_TextUpdate(object sender, EventArgs e)
@@ -293,6 +293,8 @@ namespace iTravel
             pActiveView.Refresh();
 
         }
+
+       
     
         
     }

@@ -180,6 +180,12 @@ namespace iTravel
 
         }
 
+        private void buttonItem26_Click(object sender, EventArgs e)
+        {
+            personalized person = new personalized();
+            person.Show();
+        }
+
        
     }
 }
