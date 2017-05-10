@@ -1,0 +1,9 @@
+A:\download_file\document\GitHub\iTravel_project\iTravel_other\iTravel_syf\syf_oracle_test\syf_oracle_test\bin\Debug\syf_oracle_test.exe.config
+A:\download_file\document\GitHub\iTravel_project\iTravel_other\iTravel_syf\syf_oracle_test\syf_oracle_test\bin\Debug\syf_oracle_test.exe
+A:\download_file\document\GitHub\iTravel_project\iTravel_other\iTravel_syf\syf_oracle_test\syf_oracle_test\bin\Debug\syf_oracle_test.pdb
+A:\download_file\document\GitHub\iTravel_project\iTravel_other\iTravel_syf\syf_oracle_test\syf_oracle_test\obj\x86\Debug\syf_oracle_test.Form1.resources
+A:\download_file\document\GitHub\iTravel_project\iTravel_other\iTravel_syf\syf_oracle_test\syf_oracle_test\obj\x86\Debug\syf_oracle_test.Properties.Resources.resources
+A:\download_file\document\GitHub\iTravel_project\iTravel_other\iTravel_syf\syf_oracle_test\syf_oracle_test\obj\x86\Debug\syf_oracle_test.csproj.GenerateResource.Cache
+A:\download_file\document\GitHub\iTravel_project\iTravel_other\iTravel_syf\syf_oracle_test\syf_oracle_test\obj\x86\Debug\syf_oracle_test.exe
+A:\download_file\document\GitHub\iTravel_project\iTravel_other\iTravel_syf\syf_oracle_test\syf_oracle_test\obj\x86\Debug\syf_oracle_test.pdb
+A:\download_file\document\GitHub\iTravel_project\iTravel_other\iTravel_syf\syf_oracle_test\syf_oracle_test\obj\x86\Debug\syf_oracle_test.Form2.resources
